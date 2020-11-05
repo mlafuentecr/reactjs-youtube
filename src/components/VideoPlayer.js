@@ -1,8 +1,6 @@
 import './css/VideoPlayer.css';
 
 const VideoPlayer = ({ videoSelected }) => {
-	console.log('videoSelected');
-  console.log(videoSelected.video.snippet);
   
 	if (videoSelected) {
     const videoId = videoSelected.video.id.videoId;
@@ -14,12 +12,11 @@ const VideoPlayer = ({ videoSelected }) => {
 						width='560'
 						height='315'
 						src={`https://www.youtube.com/embed/${videoId}`}
-						frameborder='0'
 					></iframe>
 				</div>
 				<div className='descript'>
 					<h2>{snippetV.title}</h2>
-					<p>{snippetV.description}cccc</p>
+					<p>{snippetV.description}</p>
 				</div>
 			</div>
 		);
