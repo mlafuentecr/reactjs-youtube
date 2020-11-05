@@ -1,0 +1,47 @@
+.videoplayer{
+  display: none;
+}
+.videoplayer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 315px;
+  background: #ededed;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1;
+  padding: 10px;
+  min-width: 550px;
+  }
+ .videoplayer .descript {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-height: 100px;
+    padding: 10px;
+    justify-content: flex-start;
+
+}
+
+.videoplayer .descript h2,  .videoplayer .descript p {
+
+  text-align: left;
+
+}
+  .withPlayer .video-secction{
+    display: flex;
+    flex:1 1 100%;
+    background-color: white;
+    margin: 10px auto;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .videoplayer{
+      width: 100%;
+      min-width: initial;
+    }
+}

@@ -1,0 +1,53 @@
+.withPlayer .header {
+  min-width: 100%;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  background: red;
+  flex-direction: row;
+}
+.header .logo{
+display: flex;
+flex: 1;
+justify-content: center;
+align-content: center;
+margin: 10px;
+}
+.header span.text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: clamp(1.5rem, 4vw, 4rem); 
+  margin: 0px 10px;
+}
+.header .logo img{
+  width: 40%;
+  max-width: 50px;
+  height: auto;
+}
+
+.header .search-bar{
+  display: flex;
+  flex: 3;
+  justify-content: center;
+  align-content: center;
+  }
+
+  .header .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    flex: 1;
+    margin: 10px;
+}
+
+.header .form div {
+  min-width: 100%;
+}

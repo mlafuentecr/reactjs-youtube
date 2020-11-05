@@ -1,0 +1,12 @@
+
+.summer {
+  background-color: rgb(122, 117, 109) !important;
+  color: white;
+  font-size: clamp(2rem, 5vw, 4rem) !important
+}
+
+.winter {
+  background-color:#49bfee !important;
+  color: white;
+  font-size: clamp(2rem, 5vw, 4rem) !important
+}
