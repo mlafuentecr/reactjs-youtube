@@ -18,7 +18,7 @@ function App() {
 					videoSelected.length !== 0 ? 'withPlayer' : ''
 				}`}
 			>
-				<Header setVideos={setVideos} />
+				<Header clearVideo={setVideoSelected} setVideos={setVideos} />
 				<VideoPlayer videoSelected={videoSelected} />
 				<VideoList 
 					videos={videos} 

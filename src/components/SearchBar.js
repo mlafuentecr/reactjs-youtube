@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import YoutubeAPi from '../apis/Youtube'
+
 const SearchBar = (props) => {
 	const [inputSearch, setInputSearch] = useState('');
 
@@ -18,7 +19,7 @@ const SearchBar = (props) => {
    //props.setImages(response.data.results);
 		//send result to other component
 		props.setVideos(response.data.items)
-   
+		props.clearVideo('');
   }
 
 

@@ -6,13 +6,14 @@ function refreshPage() {
 }
 
 const Header = (props) =>{
+
   return(
     <div className="ui header three ">
     <div className="logo " onClick={refreshPage} >
       <img src={logo} alt="logo"/>
       <span className="text">Tube</span>
     </div>
-    <SerachBar setVideos={props.setVideos} />
+    <SerachBar clearVideo={props.clearVideo} setVideos={props.setVideos} />
   </div>
   )
 }
