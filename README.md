@@ -1,10 +1,5 @@
 # url
-youtube-search-azure.vercel.app
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+(youtube-search-azure.vercel.app)
 
 ## youtube api
 <img alt="Bitcoinwagering" src="https://raw.githubusercontent.com/mlafuentecr/images/master/youtube.jpg" width="100%" />
