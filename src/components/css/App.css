@@ -1,7 +1,12 @@
+#root{
+display: flex;
+}
 .App {
   text-align: center;
   background-color: gray;
   padding: 20px;
+  display: flex;
+  flex: 1;
 }
 .segment {
   height: 100%;

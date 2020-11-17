@@ -1,3 +1,7 @@
+# url
+youtube-search-azure.vercel.app
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -14,3 +18,9 @@ https://console.developers.google.com/apis/library?folder=&organizationId=&proje
 
 ## Using Axios
 npm i --save axios
+
+
+## Using Versel Cli
+npm i -g  Versel
+vercel init
+vercel
